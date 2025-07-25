@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+.header {
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.main-hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero-wrapper {
+  background: url('images/Object.png') center/cover no-repeat;
+  padding-bottom: 60px;
+}
+
+.main-hero h1 {
+  font-size: 4.5rem;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+
+.main-hero p {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.main-hero button {
+  background-color: #c271ff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 0.7rem;
+  margin-top: 40px;
+  border-radius: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pros {
+  text-align: center;
+  color: #fff;
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+
+.pros h2 {
+  font-weight: lighter;
+  color: #ececec;
+}
+
+span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 100px;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.profile p {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 0.7rem;
+  color: #ececec;
+}
+
+.quote {
+  background-color: #c271ff;
+  color: #fff;
+  padding: 80px 20px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.testimonial img {
+  width: 120px;
+}
+
+blockquote {
+  margin-bottom: 15px;
+}
+
+blockquote em {
+  font-weight: lighter;
+}
+
+.tutorials {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.tutorials h2 {
+  font-weight: lighter;
+  color: #333;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.card {
+  width: 250px;
+  text-align: left;
+}
+
+.card img {
+  border-radius: 3px;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.author img {
+  width: 30px;
+}
+
+.author h6 {
+  color: #c271ff;
+  font-weight: lighter;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.rating i {
+  color: #c271ff;
+  font-size: 0.5rem;
+  margin: 2px;
+}
+
+.meta p {
+  color: #c271ff;
+}
+
+.membership {
+  background-color: #071629;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.membership h2 {
+  font-weight: lighter;
+  color: #ececec;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.feature {
+  width: 200px;
+}
+
+.feature h5 {
+  margin-top: 15px;
+}
+
+.feature p {
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: #ececec;
+}
+
+.membership button {
+  margin-top: 60px;
+  background-color: #c271ff;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 24px;
+}
+
+.faq {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 40px;
+}
+
+.question {
+  width: 360px;
+  text-align: left;
+}
+
+.question p {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.footer {
+  background-color: #071629;
+  color: #fff;
+  text-align: center;
+  padding: 60px 100px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.socials a i {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+.footer-content p {
+  margin-top: 30px;
+  font-size: 0.7rem;
+  color: #666;
+}
