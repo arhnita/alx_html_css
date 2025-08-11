@@ -24,13 +24,14 @@
             font-family: 'Source Sans Pro', Arial, sans-serif;
             line-height: 1.6;
             color: #fff;
-            max-width: 1000px;
+            /* max-width: 1000px; */
             margin: 0 auto;
         }
 
+    
         /* Header/Hero Section */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23071629" width="1200" height="800"/><circle cx="600" cy="400" r="200" fill="%23071629" opacity="0.8"/></svg>');
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/headphones/images/headphones_hero_1.jpg');
             background-size: cover;
             background-position: center;
             min-height: 100vh;
@@ -45,7 +46,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 30px 0;
+            padding: 4rem 8rem;
             position: relative;
             z-index: 100;
         }
@@ -162,7 +163,7 @@
         .services {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(207px, 1fr));
-            gap: 60px;
+            gap: 30px;
             max-width: 1000px;
             margin: 0 auto;
         }
@@ -180,7 +181,7 @@
             justify-content: center;
             font-size: 48px;
             color: #FF6565;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="%23FF6565" stroke-width="2"/><path d="M30 50h40M50 30v40" stroke="%23FF6565" stroke-width="2"/></svg>') no-repeat center;
+            
             background-size: contain;
         }
 
