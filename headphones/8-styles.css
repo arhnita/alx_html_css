@@ -1,14 +1,14 @@
 
         @font-face {
             font-family: 'Source Sans Pro';
-            src: url('source-sans-pro.woff2') format('woff2');
+            src: url('/headphones/fonts/SourceSansPro-Black.otf') format('otf');
             font-weight: normal;
             font-style: normal;
         }
         
         @font-face {
             font-family: 'Spin Cycle OT';
-            src: url('spin-cycle-ot.woff') format('woff');
+            src: url('/headphones/fonts/spincycle_ot.otf') format('otf');
             font-weight: normal;
             font-style: normal;
         }
@@ -338,6 +338,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 60px;
+            padding: 4rem 8rem;
         }
 
         .footer-logo {
